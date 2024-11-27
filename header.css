@@ -1,0 +1,19 @@
+<style>
+#header .header-title-logo a img {
+    filter: invert(0); 
+    transition: filter 0.3s ease;
+}
+#header.header-on-dark .header-title-logo a img {
+    filter: invert(1); 
+}
+#header .header-nav-item a, #header.header-on-dark .header-actions-action .btn.sqs-button-element--secondary {
+    transition: all 0.3s ease;
+}  
+#header.header-on-dark .header-nav-item a {
+  color: #fff;
+}
+#header.header-on-dark .header-actions-action .btn.sqs-button-element--secondary {
+  background-color: #fff;
+  color: #000;
+}  
+</style>
